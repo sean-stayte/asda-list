@@ -7,7 +7,7 @@ shopping_list = pd.DataFrame(user_list, columns=['item'])
 
 # Create a dictionary of items and their locations in ASDA
 import csv
-itm_loc_reader = csv.reader(open('C:/Users/seans/Desktop/ASDA List Creator/item_locations.csv'))
+itm_loc_reader = csv.reader(open('item_locations.csv'))
 item_loc_dict = {}
 for row in itm_loc_reader:
     key = row[1]
